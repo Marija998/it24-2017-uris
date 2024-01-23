@@ -6,7 +6,7 @@ namespace TransactionServiceAPI.Data
 {
     public class AppDbContext : DbContext
     {
-        private readonly IConfiguration configuration;
+        //private readonly IConfiguration configuration;
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 

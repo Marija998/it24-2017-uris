@@ -103,7 +103,7 @@ namespace TransactionServiceAPI.Controllers
 
     }
 
-    internal class CurrencyExchange
+    internal static class CurrencyExchange
     {
         private const string endpoint = @"http://currencies.apps.grandtrunk.net/getlatest/{0}/{1}";
         private static HttpClient httpClient = new HttpClient();
